@@ -70,7 +70,7 @@ export default Vue.extend({
     },
     fetchPokemonByName(name: string){
       axios
-        .get(`http://localhost:8082/api/v1/pokemon/${name}`)
+        .get(`${process.env.POKEMON_ENDPOINT}${name}`)
         .then((response) => {
           const data = response.data;
           this.pokemons = [];
