@@ -1,29 +1,12 @@
-# pokiapidemo
+# PokiAPI Front-End
 
-## Project setup
-```
-yarn install
-```
+## Stack
+- [VueJs](https://vuejs.org)
+- [Bootstrap Vue](https://bootstrap-vue.org)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+### Hosting
+- [AWS S3](http://pokiapi-frontend.s3-website.us-east-2.amazonaws.com) - App currently hosted here [http://pokiapi-frontend.s3-website.us-east-2.amazonaws.com](http://pokiapi-frontend.s3-website.us-east-2.amazonaws.com)
 
-### Compiles and minifies for production
-```
-yarn build
-```
+### CI/CD
+- [AWS Code Pipeline](https://aws.amazon.com/codepipeline/)
 
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
